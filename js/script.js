@@ -2,6 +2,8 @@ console.log("yeah");
 
 
 function start(){
+    var btn_lancer = document.getElementById("play")
+    btn_lancer.style.display ="none"
     play();
     step_1();
   

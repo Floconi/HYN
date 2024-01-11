@@ -80,7 +80,7 @@ section::before{
 }
 
 .step_3::before{
-    background-image: url(../images/fond_d_ecran_carte_de_veux_3.jpg);
+    background-image: url(../images/fond_d_ecran_carte_de_veux_7.png);
     
 }
 .step_4::before{
@@ -107,6 +107,8 @@ h2{
     transition: all 2s;
     position: relative;
     top : -1000px;
+    overflow: hidden;
+
 }
 h3{
     position: relative;
@@ -122,6 +124,7 @@ h3{
     text-align: center;
     bottom: -200px;
     opacity: 0;
+    overflow: hidden;
 
     
 }
@@ -140,4 +143,50 @@ p{
     justify-content: center;
     align-items: center;
     background-color: white;
+    overflow: hidden;
+}
+
+
+@media (max-width : 480px){
+
+
+    h2{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .image{
+        width: 100px;
+    }
+
+    
+}
+
+@media ((min-width : 480px) and (max-width : 750px)){
+
+
+    h2{
+        font-size: 60px;
+    }
+
+    h3{
+        font-size: 32px;
+    }
+
+    p{
+        font-size: 20px;
+    }
+
+    .image{
+        width: 200px;
+    }
+
+    
 }
