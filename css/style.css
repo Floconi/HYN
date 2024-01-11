@@ -66,12 +66,22 @@ section::before{
     transition: all 3s;
     position: relative;
     top : -80px;
+    display: none;
+}
+.step_0{
+    transition: all 3s;
+    position: relative;
+
 }
 
-.step_2 , .step_3 , .step_4 , .step_5 , .step_6{
+.step_1 .step_2 , .step_3 , .step_4 , .step_5 , .step_6{
     display: none;
 }
 
+.step_0::before{
+    background-image: url(../images/fond_d_ecran_carte_de_veux_0.jpg);
+
+}
 .step_1::before{
     background-image: url(../images/fond_d_ecran_carte_de_veux_1.png);
 }

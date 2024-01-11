@@ -19,7 +19,8 @@ function play(){
 
 function step_1() {
 
-
+    var step_0 = document.getElementById("step_0")
+    step_0.style.display = "none"
 
     var step_1 = document.getElementById("step_1")
     step_1.style.display = "flex"
@@ -28,29 +29,30 @@ function step_1() {
     
     
 
+    setTimeout(()=>{
 
-    var step_1__title = document.getElementById("step_1__title")
-    step_1__title.style.top = "all 2s";
-    step_1__title.style.opacity = 1
-    step_1__title.style.top = 0
-    
+        var step_1__title = document.getElementById("step_1__title")
+        step_1__title.style.top = "all 2s";
+        step_1__title.style.opacity = 1
+        step_1__title.style.top = 0
+        
 
 
-    var step_1__content = document.getElementById("step_1__content")
-    step_1__content.style.transition = "all 2s"
-    step_1__content.style.opacity = 1
-    step_1__content.style.left = 0;
-    step_1__content.style.right = 0
+        var step_1__content = document.getElementById("step_1__content")
+        step_1__content.style.transition = "all 2s"
+        step_1__content.style.opacity = 1
+        step_1__content.style.left = 0;
+        step_1__content.style.right = 0
 
-    var step_1__annee = document.getElementById("step_1__annee")
-    step_1__annee.style.transition = "all 2s"
-    step_1__annee.style.opacity = 1
-    step_1__annee.style.bottom = 0
+        var step_1__annee = document.getElementById("step_1__annee")
+        step_1__annee.style.transition = "all 2s"
+        step_1__annee.style.opacity = 1
+        step_1__annee.style.bottom = 0
 
-    var step_1_cadeau = document.getElementById("cadeau_1")
-    step_1_cadeau.style.transition = "all 3s"
-    step_1_cadeau.style.opacity = 1
-    step_1_cadeau.style.transform = "scale(1)"
+        var step_1_cadeau = document.getElementById("cadeau_1")
+        step_1_cadeau.style.transition = "all 3s"
+        step_1_cadeau.style.opacity = 1
+        step_1_cadeau.style.transform = "scale(1)"
     
     
     
@@ -73,7 +75,7 @@ function step_1() {
         },"1000");
 
     },"5000");
-    
+    },"1000");
    
 
 }
@@ -357,4 +359,3 @@ function step_6(){
                 
 
 }
-
